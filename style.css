@@ -2,7 +2,7 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 body {
-  background-color: silver;
+  background-color: #16181a;
 }
 
 #header,
@@ -41,4 +41,16 @@ body {
   font-weight: bold;
   background: linear-gradient(to top, #515658, #2d3030);
   color: white;
+}
+
+#media {
+  width: 100%;
+  height: auto;
+  margin: AUTO;
+}
+
+#media > img {
+  max-width: 100%;
+  max-height: 100%;
+  margin: auto;
 }
