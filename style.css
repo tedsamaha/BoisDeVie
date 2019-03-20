@@ -29,14 +29,16 @@ body {
 #header > a {
   float: right;
   font-style: oblique;
-  text-align: right;
   text-decoration: none;
   color: white;
+  height: 50px;
   text-transform: uppercase;
-  padding: 5px 20px;
+  padding: 0px 20px;
+  margin: AUTO;
 }
 
 #header > a:hover {
-  border: solid gold thin;
-  color: gold;
+  font-weight: bold;
+  background: linear-gradient(to top, #515658, #2d3030);
+  color: white;
 }
