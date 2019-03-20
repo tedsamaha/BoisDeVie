@@ -1,0 +1,40 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  background-color: silver;
+}
+
+#header,
+#footer {
+  text-align: center;
+  line-height: 50px;
+  color: white;
+}
+
+#header {
+  text-align-last: left;
+  padding-left: 10px;
+  width: 75%;
+  padding-top: 5px;
+  height: 50px;
+  border-radius: 5px;
+  background: linear-gradient(to bottom, #282a2b, #2d3030);
+  position: fixed;
+  top: 5;
+}
+
+#header > a {
+  float: right;
+  text-align: right;
+  font-style: oblique;
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  padding: 5px 20px;
+}
+
+#header > a:hover {
+  border: solid gold thin;
+  color: gold;
+}
