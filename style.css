@@ -15,19 +15,21 @@ body {
 #header {
   text-align-last: left;
   padding-left: 10px;
-  width: 75%;
   padding-top: 5px;
+  padding-right: 10px;
   height: 50px;
   border-radius: 5px;
   background: linear-gradient(to bottom, #282a2b, #2d3030);
   position: fixed;
-  top: 5;
+  width: 1000px;
+  left: 10%;
+  right: 10%;
 }
 
 #header > a {
   float: right;
-  text-align: right;
   font-style: oblique;
+  text-align: right;
   text-decoration: none;
   color: white;
   text-transform: uppercase;
