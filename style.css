@@ -43,6 +43,17 @@ body {
   color: white;
 }
 
+#footer {
+  background: linear-gradient(to bottom, #282a2b, #2d3030);
+  font-size: 11px;
+  height: auto;
+  line-height: 30px;
+  margin-bottom: 0;
+  height: 100%;
+  width: 100%;
+  bottom: 0;
+}
+
 #media {
   width: 100%;
   height: auto;
