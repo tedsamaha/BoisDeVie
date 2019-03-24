@@ -1,5 +1,6 @@
 * {
   font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
 }
 body {
   background-color: #16181a;
@@ -13,22 +14,24 @@ body {
 }
 
 #header {
-  text-align-last: left;
+  text-align: left;
   padding-left: 10px;
   padding-top: 5px;
   padding-right: 10px;
   height: 50px;
   border-radius: 5px;
+  margin: 0 auto;
   background: linear-gradient(to bottom, #282a2b, #2d3030);
   position: fixed;
-  width: 1000px;
-  left: 10%;
-  right: 10%;
+  left: 15%;
+
+  width: 70%;
 }
 
 #header > a {
   float: right;
   font-style: oblique;
+  overflow: hidden;
 
   text-decoration: none;
   color: white;
@@ -46,6 +49,7 @@ body {
 
 #footer {
   background: linear-gradient(to bottom, #282a2b, #2d3030);
+  text-decoration: none;
   font-size: 11px;
   height: auto;
   line-height: 30px;
@@ -53,6 +57,7 @@ body {
   height: 100%;
   width: 100%;
   bottom: 0;
+  clear: left;
 }
 
 #media {
@@ -70,7 +75,6 @@ body {
 #content {
   background-color: white;
   margin: auto;
-
   padding: 5px 5px;
   display: flex;
   text-align: center;
@@ -80,4 +84,26 @@ body {
 
 #content > div {
   margin: 30px;
+}
+
+#SocialM {
+  display: flex;
+  text-align: center;
+  width: 100%;
+  margin: auto;
+}
+
+#fb {
+  width: 50%;
+  overflow: hidden;
+}
+#insta {
+  width: 50%;
+  float: left;
+}
+
+#SocialM > img {
+  height: 100%;
+  width: auto;
+  margin: 0 auto;
 }
