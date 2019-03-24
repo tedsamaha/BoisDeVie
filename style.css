@@ -7,7 +7,8 @@ body {
 }
 
 #page2,
-#page3 {
+#page3,
+#page4 {
   background-color: #f3f3f3;
 }
 
@@ -204,4 +205,33 @@ div.desc {
   text-align: center;
   color: white;
   font-weight: bold;
+}
+
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+  width: 90%;
+  margin: 0 auto;
 }

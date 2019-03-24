@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Bois De Vie- Contact</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body id="page4">
+    <div id="header">
+      <img src="media/BDV WHITE hr.png" alt="Bois De Vie" height="45px" />
+      <a
+        href="contact.html"
+        style="background: linear-gradient(to top, #374146, #2d3030);"
+        >Contact</a
+      >
+      <a href="products.html">Products</a>
+      <a href="about.html">About</a>
+      <a href="index.html">Home</a>
+    </div>
+    <div id="mediaabout">
+      <img src="media/contactheader.jpg" alt="Bois De Vie" />
+    </div>
+    <div class="media">
+      <img src="media/contact us.jpg" alt="contact" />
+    </div>
+    <div id="contactus">
+      <div class="container">
+        <form action="action_page.php">
+          <label for="fname">First Name</label>
+          <input
+            type="text"
+            id="fname"
+            name="firstname"
+            placeholder="Your name.."
+          />
+
+          <label for="lname">Last Name</label>
+          <input
+            type="text"
+            id="lname"
+            name="lastname"
+            placeholder="Your last name.."
+          />
+
+          <label for="email">Email Address</label>
+          <input
+            type="text"
+            id="email"
+            name="emailaddress"
+            placeholder="someone@example.com"
+          />
+
+          <label for="country">Country</label>
+          <select id="country" name="country">
+            <option value="Lebanon">Lebanon</option>
+            <option value="United Arab Emirates">UAE</option>
+            <option value="Other">Other</option>
+          </select>
+
+          <label for="subject">Subject</label>
+          <textarea
+            id="subject"
+            name="subject"
+            placeholder="Write something.."
+            style="height:200px"
+          ></textarea>
+
+          <input type="submit" value="Submit" />
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
