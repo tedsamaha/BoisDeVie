@@ -129,7 +129,21 @@ body {
   background: linear-gradient(to bottom, #282a2b, #2d3030);
   margin: 0 auto;
   color: white;
-  text-align: left;
+  text-align: center;
   text-justify: auto;
-  padding: 10px;
+  padding: 50px;
+}
+
+#CProfile {
+  background-color: white;
+  margin: auto;
+  padding: 30px;
+  text-align: left;
+  font-weight: bolder;
+  display: flex;
+}
+
+#woodimg {
+  padding: 15px;
+  margin: auto;
 }
