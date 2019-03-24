@@ -6,7 +6,8 @@ body {
   background-color: #16181a;
 }
 
-#page2 {
+#page2,
+#page3 {
   background-color: #f3f3f3;
 }
 
@@ -132,6 +133,25 @@ body {
   text-align: center;
   text-justify: auto;
   padding: 50px;
+}
+
+.showcase {
+  background: linear-gradient(to bottom, #282a2b, #2d3030);
+  margin: 0 auto;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-weight: bolder;
+  display: flex;
+}
+
+.showcase > img {
+  width: 20%;
+  float: left;
+}
+
+.showcase > div {
+  width: 80%;
 }
 
 #CProfile {
